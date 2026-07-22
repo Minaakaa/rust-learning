@@ -2,5 +2,46 @@
 name = "rust-learning"
 version = "0.1.0"
 edition = "2024"
+publish = false
 
 [dependencies]
+
+[[example]]
+name = "intro_01_enums"
+path = "introduction/exercises/01_enums.rs"
+
+[[example]]
+name = "intro_02_match"
+path = "introduction/exercises/02_match.rs"
+
+[[example]]
+name = "intro_03_results"
+path = "introduction/exercises/03_results.rs"
+
+[[example]]
+name = "intro_04_errors"
+path = "introduction/exercises/04_errors.rs"
+
+[[example]]
+name = "intro_05_iterators"
+path = "introduction/exercises/05_iterators.rs"
+
+[[test]]
+name = "solution_intro_01_enums"
+path = "introduction/solutions/01_enums.rs"
+
+[[test]]
+name = "solution_intro_02_match"
+path = "introduction/solutions/02_match.rs"
+
+[[test]]
+name = "solution_intro_03_results"
+path = "introduction/solutions/03_results.rs"
+
+[[test]]
+name = "solution_intro_04_errors"
+path = "introduction/solutions/04_errors.rs"
+
+[[test]]
+name = "solution_intro_05_iterators"
+path = "introduction/solutions/05_iterators.rs"
