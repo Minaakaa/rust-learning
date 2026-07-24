@@ -45,3 +45,43 @@ path = "introduction/solutions/04_errors.rs"
 [[test]]
 name = "solution_intro_05_iterators"
 path = "introduction/solutions/05_iterators.rs"
+
+[[example]]
+name = "ownership_01_moves"
+path = "ownership/exercises/01_moves.rs"
+
+[[example]]
+name = "ownership_02_copy_clone"
+path = "ownership/exercises/02_copy_clone.rs"
+
+[[example]]
+name = "ownership_03_borrowing_slices"
+path = "ownership/exercises/03_borrowing_slices.rs"
+
+[[example]]
+name = "ownership_04_mutable_borrowing"
+path = "ownership/exercises/04_mutable_borrowing.rs"
+
+[[example]]
+name = "ownership_05_handoff"
+path = "ownership/exercises/05_handoff.rs"
+
+[[test]]
+name = "solution_ownership_01_moves"
+path = "ownership/solutions/01_moves.rs"
+
+[[test]]
+name = "solution_ownership_02_copy_clone"
+path = "ownership/solutions/02_copy_clone.rs"
+
+[[test]]
+name = "solution_ownership_03_borrowing_slices"
+path = "ownership/solutions/03_borrowing_slices.rs"
+
+[[test]]
+name = "solution_ownership_04_mutable_borrowing"
+path = "ownership/solutions/04_mutable_borrowing.rs"
+
+[[test]]
+name = "solution_ownership_05_handoff"
+path = "ownership/solutions/05_handoff.rs"
