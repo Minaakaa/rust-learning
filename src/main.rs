@@ -17,6 +17,14 @@ fn main() {
     println!("  04  可変借用と再借用");
     println!("  05  荷物引き渡しチャレンジ");
     println!();
-    println!("Chapter 2 の始め方: cargo test --example ownership_01_moves");
-    println!("詳しい説明: ownership/README.md");
+    println!("Chapter 3: data-modeling コース");
+    println!();
+    println!("  01  入れ子の構造体と構造体更新記法");
+    println!("  02  関連関数とメソッド");
+    println!("  03  newtype と単位の型安全性");
+    println!("  04  コンストラクタと不変条件");
+    println!("  05  型安全な配送ミッション");
+    println!();
+    println!("Chapter 3 の始め方: cargo test --example data_modeling_01_structs");
+    println!("詳しい説明: data-modeling/README.md");
 }

@@ -85,3 +85,43 @@ path = "ownership/solutions/04_mutable_borrowing.rs"
 [[test]]
 name = "solution_ownership_05_handoff"
 path = "ownership/solutions/05_handoff.rs"
+
+[[example]]
+name = "data_modeling_01_structs"
+path = "data-modeling/exercises/01_structs.rs"
+
+[[example]]
+name = "data_modeling_02_methods"
+path = "data-modeling/exercises/02_methods.rs"
+
+[[example]]
+name = "data_modeling_03_newtypes"
+path = "data-modeling/exercises/03_newtypes.rs"
+
+[[example]]
+name = "data_modeling_04_invariants"
+path = "data-modeling/exercises/04_invariants.rs"
+
+[[example]]
+name = "data_modeling_05_mission"
+path = "data-modeling/exercises/05_mission.rs"
+
+[[test]]
+name = "solution_data_modeling_01_structs"
+path = "data-modeling/solutions/01_structs.rs"
+
+[[test]]
+name = "solution_data_modeling_02_methods"
+path = "data-modeling/solutions/02_methods.rs"
+
+[[test]]
+name = "solution_data_modeling_03_newtypes"
+path = "data-modeling/solutions/03_newtypes.rs"
+
+[[test]]
+name = "solution_data_modeling_04_invariants"
+path = "data-modeling/solutions/04_invariants.rs"
+
+[[test]]
+name = "solution_data_modeling_05_mission"
+path = "data-modeling/solutions/05_mission.rs"
