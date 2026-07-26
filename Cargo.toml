@@ -125,3 +125,43 @@ path = "data-modeling/solutions/04_invariants.rs"
 [[test]]
 name = "solution_data_modeling_05_mission"
 path = "data-modeling/solutions/05_mission.rs"
+
+[[example]]
+name = "collections_01_vec"
+path = "collections/exercises/01_vec.rs"
+
+[[example]]
+name = "collections_02_vec_deque"
+path = "collections/exercises/02_vec_deque.rs"
+
+[[example]]
+name = "collections_03_hash_map"
+path = "collections/exercises/03_hash_map.rs"
+
+[[example]]
+name = "collections_04_hash_set"
+path = "collections/exercises/04_hash_set.rs"
+
+[[example]]
+name = "collections_05_utf8_logs"
+path = "collections/exercises/05_utf8_logs.rs"
+
+[[test]]
+name = "solution_collections_01_vec"
+path = "collections/solutions/01_vec.rs"
+
+[[test]]
+name = "solution_collections_02_vec_deque"
+path = "collections/solutions/02_vec_deque.rs"
+
+[[test]]
+name = "solution_collections_03_hash_map"
+path = "collections/solutions/03_hash_map.rs"
+
+[[test]]
+name = "solution_collections_04_hash_set"
+path = "collections/solutions/04_hash_set.rs"
+
+[[test]]
+name = "solution_collections_05_utf8_logs"
+path = "collections/solutions/05_utf8_logs.rs"

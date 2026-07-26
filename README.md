@@ -7,6 +7,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 1 [`introduction`](introduction/README.md): enum、`match`、`Result`、エラー、イテレータ
 - Chapter 2 [`ownership`](ownership/README.md): 所有権、ムーブ、`Copy` と `Clone`、借用、スライス
 - Chapter 3 [`data-modeling`](data-modeling/README.md): 構造体、メソッド、newtype、不変条件、型安全な API
+- Chapter 4 [`collections`](collections/README.md): `Vec`、`VecDeque`、`HashMap`、`HashSet`、UTF-8 文字列
 
 次のコマンドで教材一覧を表示できます。
 
@@ -22,6 +23,8 @@ cargo run
 - `ownership/solutions`: 所有権コースの解答例
 - `data-modeling/exercises`: データ設計コースの問題
 - `data-modeling/solutions`: データ設計コースの解答例
+- `collections/exercises`: コレクションコースの問題
+- `collections/solutions`: コレクションコースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

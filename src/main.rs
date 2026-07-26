@@ -25,6 +25,14 @@ fn main() {
     println!("  04  コンストラクタと不変条件");
     println!("  05  型安全な配送ミッション");
     println!();
-    println!("Chapter 3 の始め方: cargo test --example data_modeling_01_structs");
-    println!("詳しい説明: data-modeling/README.md");
+    println!("Chapter 4: collections コース");
+    println!();
+    println!("  01  Vec と荷物棚");
+    println!("  02  VecDeque と配送待ちキュー");
+    println!("  03  HashMap と部品在庫");
+    println!("  04  HashSet とロボット能力");
+    println!("  05  UTF-8 と日本語ログ解析");
+    println!();
+    println!("Chapter 4 の始め方: cargo test --example collections_01_vec");
+    println!("詳しい説明: collections/README.md");
 }
