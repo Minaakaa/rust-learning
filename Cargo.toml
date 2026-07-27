@@ -165,3 +165,43 @@ path = "collections/solutions/04_hash_set.rs"
 [[test]]
 name = "solution_collections_05_utf8_logs"
 path = "collections/solutions/05_utf8_logs.rs"
+
+[[example]]
+name = "generics_traits_01_generic_cargo"
+path = "generics-traits/exercises/01_generic_cargo.rs"
+
+[[example]]
+name = "generics_traits_02_custom_traits"
+path = "generics-traits/exercises/02_custom_traits.rs"
+
+[[example]]
+name = "generics_traits_03_trait_bounds"
+path = "generics-traits/exercises/03_trait_bounds.rs"
+
+[[example]]
+name = "generics_traits_04_conversions"
+path = "generics-traits/exercises/04_conversions.rs"
+
+[[example]]
+name = "generics_traits_05_dispatch_policy"
+path = "generics-traits/exercises/05_dispatch_policy.rs"
+
+[[test]]
+name = "solution_generics_traits_01_generic_cargo"
+path = "generics-traits/solutions/01_generic_cargo.rs"
+
+[[test]]
+name = "solution_generics_traits_02_custom_traits"
+path = "generics-traits/solutions/02_custom_traits.rs"
+
+[[test]]
+name = "solution_generics_traits_03_trait_bounds"
+path = "generics-traits/solutions/03_trait_bounds.rs"
+
+[[test]]
+name = "solution_generics_traits_04_conversions"
+path = "generics-traits/solutions/04_conversions.rs"
+
+[[test]]
+name = "solution_generics_traits_05_dispatch_policy"
+path = "generics-traits/solutions/05_dispatch_policy.rs"

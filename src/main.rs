@@ -33,6 +33,14 @@ fn main() {
     println!("  04  HashSet とロボット能力");
     println!("  05  UTF-8 と日本語ログ解析");
     println!();
-    println!("Chapter 4 の始め方: cargo test --example collections_01_vec");
-    println!("詳しい説明: collections/README.md");
+    println!("Chapter 5: generics-traits コース");
+    println!();
+    println!("  01  Cargo<T> とジェネリック型");
+    println!("  02  独自トレイトとデフォルトメソッド");
+    println!("  03  impl Trait とトレイト境界");
+    println!("  04  From / Into と TryFrom / TryInto");
+    println!("  05  交換可能な配送ポリシー");
+    println!();
+    println!("Chapter 5 の始め方: cargo test --example generics_traits_01_generic_cargo");
+    println!("詳しい説明: generics-traits/README.md");
 }
