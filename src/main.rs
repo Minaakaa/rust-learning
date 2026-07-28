@@ -41,6 +41,14 @@ fn main() {
     println!("  04  From / Into と TryFrom / TryInto");
     println!("  05  交換可能な配送ポリシー");
     println!();
-    println!("Chapter 5 の始め方: cargo test --example generics_traits_01_generic_cargo");
-    println!("詳しい説明: generics-traits/README.md");
+    println!("Chapter 6: lifetimes コース");
+    println!();
+    println!("  01  複数入力と明示的なライフタイム");
+    println!("  02  ゼロコピーのログ解析");
+    println!("  03  借用する MissionCatalog");
+    println!("  04  独立した2つの借用");
+    println!("  05  Cow による借用または所有");
+    println!();
+    println!("Chapter 6 の始め方: cargo test --example lifetimes_01_lifetime_relations");
+    println!("詳しい説明: lifetimes/README.md");
 }

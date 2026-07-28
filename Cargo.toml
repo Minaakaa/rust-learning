@@ -205,3 +205,43 @@ path = "generics-traits/solutions/04_conversions.rs"
 [[test]]
 name = "solution_generics_traits_05_dispatch_policy"
 path = "generics-traits/solutions/05_dispatch_policy.rs"
+
+[[example]]
+name = "lifetimes_01_lifetime_relations"
+path = "lifetimes/exercises/01_lifetime_relations.rs"
+
+[[example]]
+name = "lifetimes_02_zero_copy_logs"
+path = "lifetimes/exercises/02_zero_copy_logs.rs"
+
+[[example]]
+name = "lifetimes_03_borrowed_catalog"
+path = "lifetimes/exercises/03_borrowed_catalog.rs"
+
+[[example]]
+name = "lifetimes_04_independent_borrows"
+path = "lifetimes/exercises/04_independent_borrows.rs"
+
+[[example]]
+name = "lifetimes_05_cow_notices"
+path = "lifetimes/exercises/05_cow_notices.rs"
+
+[[test]]
+name = "solution_lifetimes_01_lifetime_relations"
+path = "lifetimes/solutions/01_lifetime_relations.rs"
+
+[[test]]
+name = "solution_lifetimes_02_zero_copy_logs"
+path = "lifetimes/solutions/02_zero_copy_logs.rs"
+
+[[test]]
+name = "solution_lifetimes_03_borrowed_catalog"
+path = "lifetimes/solutions/03_borrowed_catalog.rs"
+
+[[test]]
+name = "solution_lifetimes_04_independent_borrows"
+path = "lifetimes/solutions/04_independent_borrows.rs"
+
+[[test]]
+name = "solution_lifetimes_05_cow_notices"
+path = "lifetimes/solutions/05_cow_notices.rs"

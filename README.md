@@ -9,6 +9,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 3 [`data-modeling`](data-modeling/README.md): 構造体、メソッド、newtype、不変条件、型安全な API
 - Chapter 4 [`collections`](collections/README.md): `Vec`、`VecDeque`、`HashMap`、`HashSet`、UTF-8 文字列
 - Chapter 5 [`generics-traits`](generics-traits/README.md): ジェネリック型、独自トレイト、トレイト境界、標準変換トレイト、静的多相
+- Chapter 6 [`lifetimes`](lifetimes/README.md): 明示的なライフタイム、借用する構造体、ゼロコピー API、独立した借用、`Cow`
 
 次のコマンドで教材一覧を表示できます。
 
@@ -28,6 +29,8 @@ cargo run
 - `collections/solutions`: コレクションコースの解答例
 - `generics-traits/exercises`: ジェネリクスとトレイトコースの問題
 - `generics-traits/solutions`: ジェネリクスとトレイトコースの解答例
+- `lifetimes/exercises`: ライフタイムコースの問題
+- `lifetimes/solutions`: ライフタイムコースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。
