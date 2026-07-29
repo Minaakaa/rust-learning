@@ -49,6 +49,14 @@ fn main() {
     println!("  04  独立した2つの借用");
     println!("  05  Cow による借用または所有");
     println!();
-    println!("Chapter 6 の始め方: cargo test --example lifetimes_01_lifetime_relations");
-    println!("詳しい説明: lifetimes/README.md");
+    println!("Chapter 7: closures-iterators コース");
+    println!();
+    println!("  01  クロージャのキャプチャと move");
+    println!("  02  Fn / FnMut / FnOnce");
+    println!("  03  遅延する配送パイプライン");
+    println!("  04  scan と try_fold");
+    println!("  05  独自 Iterator による公平配送");
+    println!();
+    println!("Chapter 7 の始め方: cargo test --example closures_iterators_01_closure_captures");
+    println!("詳しい説明: closures-iterators/README.md");
 }

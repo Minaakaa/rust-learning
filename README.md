@@ -10,6 +10,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 4 [`collections`](collections/README.md): `Vec`、`VecDeque`、`HashMap`、`HashSet`、UTF-8 文字列
 - Chapter 5 [`generics-traits`](generics-traits/README.md): ジェネリック型、独自トレイト、トレイト境界、標準変換トレイト、静的多相
 - Chapter 6 [`lifetimes`](lifetimes/README.md): 明示的なライフタイム、借用する構造体、ゼロコピー API、独立した借用、`Cow`
+- Chapter 7 [`closures-iterators`](closures-iterators/README.md): クロージャのキャプチャ、`Fn` 系トレイト、遅延評価、状態付き反復、独自イテレータ
 
 次のコマンドで教材一覧を表示できます。
 
@@ -31,6 +32,8 @@ cargo run
 - `generics-traits/solutions`: ジェネリクスとトレイトコースの解答例
 - `lifetimes/exercises`: ライフタイムコースの問題
 - `lifetimes/solutions`: ライフタイムコースの解答例
+- `closures-iterators/exercises`: クロージャとイテレータコースの問題
+- `closures-iterators/solutions`: クロージャとイテレータコースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

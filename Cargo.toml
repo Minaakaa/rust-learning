@@ -245,3 +245,43 @@ path = "lifetimes/solutions/04_independent_borrows.rs"
 [[test]]
 name = "solution_lifetimes_05_cow_notices"
 path = "lifetimes/solutions/05_cow_notices.rs"
+
+[[example]]
+name = "closures_iterators_01_closure_captures"
+path = "closures-iterators/exercises/01_closure_captures.rs"
+
+[[example]]
+name = "closures_iterators_02_fn_traits"
+path = "closures-iterators/exercises/02_fn_traits.rs"
+
+[[example]]
+name = "closures_iterators_03_lazy_pipelines"
+path = "closures-iterators/exercises/03_lazy_pipelines.rs"
+
+[[example]]
+name = "closures_iterators_04_stateful_iteration"
+path = "closures-iterators/exercises/04_stateful_iteration.rs"
+
+[[example]]
+name = "closures_iterators_05_fair_dispatch"
+path = "closures-iterators/exercises/05_fair_dispatch.rs"
+
+[[test]]
+name = "solution_closures_iterators_01_closure_captures"
+path = "closures-iterators/solutions/01_closure_captures.rs"
+
+[[test]]
+name = "solution_closures_iterators_02_fn_traits"
+path = "closures-iterators/solutions/02_fn_traits.rs"
+
+[[test]]
+name = "solution_closures_iterators_03_lazy_pipelines"
+path = "closures-iterators/solutions/03_lazy_pipelines.rs"
+
+[[test]]
+name = "solution_closures_iterators_04_stateful_iteration"
+path = "closures-iterators/solutions/04_stateful_iteration.rs"
+
+[[test]]
+name = "solution_closures_iterators_05_fair_dispatch"
+path = "closures-iterators/solutions/05_fair_dispatch.rs"
