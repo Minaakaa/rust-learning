@@ -57,6 +57,14 @@ fn main() {
     println!("  04  scan と try_fold");
     println!("  05  独自 Iterator による公平配送");
     println!();
-    println!("Chapter 7 の始め方: cargo test --example closures_iterators_01_closure_captures");
-    println!("詳しい説明: closures-iterators/README.md");
+    println!("Chapter 8: smart-pointers コース");
+    println!();
+    println!("  01  Box と再帰的な配送経路");
+    println!("  02  Deref / DerefMut と Drop");
+    println!("  03  Rc によるキャンパスマップ共有");
+    println!("  04  RefCell と内部可変性");
+    println!("  05  Weak による循環しない所有関係");
+    println!();
+    println!("Chapter 8 の始め方: cargo test --example smart_pointers_01_boxed_routes");
+    println!("詳しい説明: smart-pointers/README.md");
 }

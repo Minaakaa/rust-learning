@@ -285,3 +285,43 @@ path = "closures-iterators/solutions/04_stateful_iteration.rs"
 [[test]]
 name = "solution_closures_iterators_05_fair_dispatch"
 path = "closures-iterators/solutions/05_fair_dispatch.rs"
+
+[[example]]
+name = "smart_pointers_01_boxed_routes"
+path = "smart-pointers/exercises/01_boxed_routes.rs"
+
+[[example]]
+name = "smart_pointers_02_deref_drop_guards"
+path = "smart-pointers/exercises/02_deref_drop_guards.rs"
+
+[[example]]
+name = "smart_pointers_03_shared_maps"
+path = "smart-pointers/exercises/03_shared_maps.rs"
+
+[[example]]
+name = "smart_pointers_04_refcell_console"
+path = "smart-pointers/exercises/04_refcell_console.rs"
+
+[[example]]
+name = "smart_pointers_05_weak_fleet"
+path = "smart-pointers/exercises/05_weak_fleet.rs"
+
+[[test]]
+name = "solution_smart_pointers_01_boxed_routes"
+path = "smart-pointers/solutions/01_boxed_routes.rs"
+
+[[test]]
+name = "solution_smart_pointers_02_deref_drop_guards"
+path = "smart-pointers/solutions/02_deref_drop_guards.rs"
+
+[[test]]
+name = "solution_smart_pointers_03_shared_maps"
+path = "smart-pointers/solutions/03_shared_maps.rs"
+
+[[test]]
+name = "solution_smart_pointers_04_refcell_console"
+path = "smart-pointers/solutions/04_refcell_console.rs"
+
+[[test]]
+name = "solution_smart_pointers_05_weak_fleet"
+path = "smart-pointers/solutions/05_weak_fleet.rs"
