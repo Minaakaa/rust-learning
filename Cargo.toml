@@ -325,3 +325,43 @@ path = "smart-pointers/solutions/04_refcell_console.rs"
 [[test]]
 name = "solution_smart_pointers_05_weak_fleet"
 path = "smart-pointers/solutions/05_weak_fleet.rs"
+
+[[example]]
+name = "concurrency_01_spawn_audits"
+path = "concurrency/exercises/01_spawn_audits.rs"
+
+[[example]]
+name = "concurrency_02_scoped_calibration"
+path = "concurrency/exercises/02_scoped_calibration.rs"
+
+[[example]]
+name = "concurrency_03_telemetry_channels"
+path = "concurrency/exercises/03_telemetry_channels.rs"
+
+[[example]]
+name = "concurrency_04_shared_ledger"
+path = "concurrency/exercises/04_shared_ledger.rs"
+
+[[example]]
+name = "concurrency_05_fixed_workers"
+path = "concurrency/exercises/05_fixed_workers.rs"
+
+[[test]]
+name = "solution_concurrency_01_spawn_audits"
+path = "concurrency/solutions/01_spawn_audits.rs"
+
+[[test]]
+name = "solution_concurrency_02_scoped_calibration"
+path = "concurrency/solutions/02_scoped_calibration.rs"
+
+[[test]]
+name = "solution_concurrency_03_telemetry_channels"
+path = "concurrency/solutions/03_telemetry_channels.rs"
+
+[[test]]
+name = "solution_concurrency_04_shared_ledger"
+path = "concurrency/solutions/04_shared_ledger.rs"
+
+[[test]]
+name = "solution_concurrency_05_fixed_workers"
+path = "concurrency/solutions/05_fixed_workers.rs"

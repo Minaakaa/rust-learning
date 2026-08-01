@@ -12,6 +12,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 6 [`lifetimes`](lifetimes/README.md): 明示的なライフタイム、借用する構造体、ゼロコピー API、独立した借用、`Cow`
 - Chapter 7 [`closures-iterators`](closures-iterators/README.md): クロージャのキャプチャ、`Fn` 系トレイト、遅延評価、状態付き反復、独自イテレータ
 - Chapter 8 [`smart-pointers`](smart-pointers/README.md): `Box`、`Deref`、`Drop`、`Rc`、`RefCell`、`Weak`
+- Chapter 9 [`concurrency`](concurrency/README.md): スレッド、スコープ付きスレッド、チャネル、`Arc`、`Mutex`、`Send`、`Sync`
 
 次のコマンドで教材一覧を表示できます。
 
@@ -37,6 +38,8 @@ cargo run
 - `closures-iterators/solutions`: クロージャとイテレータコースの解答例
 - `smart-pointers/exercises`: スマートポインタコースの問題
 - `smart-pointers/solutions`: スマートポインタコースの解答例
+- `concurrency/exercises`: 並行処理コースの問題
+- `concurrency/solutions`: 並行処理コースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

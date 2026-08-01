@@ -65,6 +65,14 @@ fn main() {
     println!("  04  RefCell と内部可変性");
     println!("  05  Weak による循環しない所有関係");
     println!();
-    println!("Chapter 8 の始め方: cargo test --example smart_pointers_01_boxed_routes");
-    println!("詳しい説明: smart-pointers/README.md");
+    println!("Chapter 9: concurrency コース");
+    println!();
+    println!("  01  spawn・move・JoinHandle");
+    println!("  02  scope と借用データの並列処理");
+    println!("  03  mpsc チャネルと所有権の移送");
+    println!("  04  Arc<Mutex<T>> と共有台帳");
+    println!("  05  Send・Sync と固定ワーカー");
+    println!();
+    println!("Chapter 9 の始め方: cargo test --example concurrency_01_spawn_audits");
+    println!("詳しい説明: concurrency/README.md");
 }
