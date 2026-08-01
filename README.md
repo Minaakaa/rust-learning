@@ -13,6 +13,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 7 [`closures-iterators`](closures-iterators/README.md): クロージャのキャプチャ、`Fn` 系トレイト、遅延評価、状態付き反復、独自イテレータ
 - Chapter 8 [`smart-pointers`](smart-pointers/README.md): `Box`、`Deref`、`Drop`、`Rc`、`RefCell`、`Weak`
 - Chapter 9 [`concurrency`](concurrency/README.md): スレッド、スコープ付きスレッド、チャネル、`Arc`、`Mutex`、`Send`、`Sync`
+- Chapter 10 [`async-rust`](async-rust/README.md): `async` / `.await`、`Future`、`Waker`、`Pin`、executor、task、backpressure、キャンセル、graceful shutdown
 
 次のコマンドで教材一覧を表示できます。
 
@@ -40,6 +41,8 @@ cargo run
 - `smart-pointers/solutions`: スマートポインタコースの解答例
 - `concurrency/exercises`: 並行処理コースの問題
 - `concurrency/solutions`: 並行処理コースの解答例
+- `async-rust/exercises`: 非同期処理コースの問題
+- `async-rust/solutions`: 非同期処理コースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

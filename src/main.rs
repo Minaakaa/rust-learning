@@ -73,6 +73,14 @@ fn main() {
     println!("  04  Arc<Mutex<T>> と共有台帳");
     println!("  05  Send・Sync と固定ワーカー");
     println!();
-    println!("Chapter 9 の始め方: cargo test --example concurrency_01_spawn_audits");
-    println!("詳しい説明: concurrency/README.md");
+    println!("Chapter 10: async-rust コース");
+    println!();
+    println!("  01  async・await と task");
+    println!("  02  Future・Poll・Waker・Pin");
+    println!("  03  小さな executor");
+    println!("  04  backpressure・timeout・キャンセル");
+    println!("  05  select! と graceful shutdown");
+    println!();
+    println!("Chapter 10 の始め方: cargo test --example async_rust_01_async_tasks");
+    println!("詳しい説明: async-rust/README.md");
 }

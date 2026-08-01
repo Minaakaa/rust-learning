@@ -6,6 +6,9 @@ publish = false
 
 [dependencies]
 
+[dev-dependencies]
+tokio = { version = "1.53.1", features = ["macros", "rt", "sync", "test-util", "time"] }
+
 [[example]]
 name = "intro_01_enums"
 path = "introduction/exercises/01_enums.rs"
@@ -365,3 +368,43 @@ path = "concurrency/solutions/04_shared_ledger.rs"
 [[test]]
 name = "solution_concurrency_05_fixed_workers"
 path = "concurrency/solutions/05_fixed_workers.rs"
+
+[[example]]
+name = "async_rust_01_async_tasks"
+path = "async-rust/exercises/01_async_tasks.rs"
+
+[[example]]
+name = "async_rust_02_manual_future"
+path = "async-rust/exercises/02_manual_future.rs"
+
+[[example]]
+name = "async_rust_03_mini_executor"
+path = "async-rust/exercises/03_mini_executor.rs"
+
+[[example]]
+name = "async_rust_04_backpressure_cancellation"
+path = "async-rust/exercises/04_backpressure_cancellation.rs"
+
+[[example]]
+name = "async_rust_05_graceful_telemetry"
+path = "async-rust/exercises/05_graceful_telemetry.rs"
+
+[[test]]
+name = "solution_async_rust_01_async_tasks"
+path = "async-rust/solutions/01_async_tasks.rs"
+
+[[test]]
+name = "solution_async_rust_02_manual_future"
+path = "async-rust/solutions/02_manual_future.rs"
+
+[[test]]
+name = "solution_async_rust_03_mini_executor"
+path = "async-rust/solutions/03_mini_executor.rs"
+
+[[test]]
+name = "solution_async_rust_04_backpressure_cancellation"
+path = "async-rust/solutions/04_backpressure_cancellation.rs"
+
+[[test]]
+name = "solution_async_rust_05_graceful_telemetry"
+path = "async-rust/solutions/05_graceful_telemetry.rs"
