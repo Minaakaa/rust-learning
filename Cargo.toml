@@ -408,3 +408,43 @@ path = "async-rust/solutions/04_backpressure_cancellation.rs"
 [[test]]
 name = "solution_async_rust_05_graceful_telemetry"
 path = "async-rust/solutions/05_graceful_telemetry.rs"
+
+[[example]]
+name = "unsafe_rust_01_raw_slice"
+path = "unsafe-rust/exercises/01_raw_slice.rs"
+
+[[example]]
+name = "unsafe_rust_02_unsafe_cell"
+path = "unsafe-rust/exercises/02_unsafe_cell.rs"
+
+[[example]]
+name = "unsafe_rust_03_strict_provenance"
+path = "unsafe-rust/exercises/03_strict_provenance.rs"
+
+[[example]]
+name = "unsafe_rust_04_fixed_buffer"
+path = "unsafe-rust/exercises/04_fixed_buffer.rs"
+
+[[example]]
+name = "unsafe_rust_05_panic_safe_array"
+path = "unsafe-rust/exercises/05_panic_safe_array.rs"
+
+[[test]]
+name = "solution_unsafe_rust_01_raw_slice"
+path = "unsafe-rust/solutions/01_raw_slice.rs"
+
+[[test]]
+name = "solution_unsafe_rust_02_unsafe_cell"
+path = "unsafe-rust/solutions/02_unsafe_cell.rs"
+
+[[test]]
+name = "solution_unsafe_rust_03_strict_provenance"
+path = "unsafe-rust/solutions/03_strict_provenance.rs"
+
+[[test]]
+name = "solution_unsafe_rust_04_fixed_buffer"
+path = "unsafe-rust/solutions/04_fixed_buffer.rs"
+
+[[test]]
+name = "solution_unsafe_rust_05_panic_safe_array"
+path = "unsafe-rust/solutions/05_panic_safe_array.rs"

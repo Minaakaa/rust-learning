@@ -14,6 +14,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 8 [`smart-pointers`](smart-pointers/README.md): `Box`、`Deref`、`Drop`、`Rc`、`RefCell`、`Weak`
 - Chapter 9 [`concurrency`](concurrency/README.md): スレッド、スコープ付きスレッド、チャネル、`Arc`、`Mutex`、`Send`、`Sync`
 - Chapter 10 [`async-rust`](async-rust/README.md): `async` / `.await`、`Future`、`Waker`、`Pin`、executor、task、backpressure、キャンセル、graceful shutdown
+- Chapter 11 [`unsafe-rust`](unsafe-rust/README.md): raw pointer、`UnsafeCell`、strict provenance、`MaybeUninit`、drop・panic safety、Miri
 
 次のコマンドで教材一覧を表示できます。
 
@@ -43,6 +44,8 @@ cargo run
 - `concurrency/solutions`: 並行処理コースの解答例
 - `async-rust/exercises`: 非同期処理コースの問題
 - `async-rust/solutions`: 非同期処理コースの解答例
+- `unsafe-rust/exercises`: Unsafe Rust コースの問題
+- `unsafe-rust/solutions`: Unsafe Rust コースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

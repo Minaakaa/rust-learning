@@ -81,6 +81,14 @@ fn main() {
     println!("  04  backpressure・timeout・キャンセル");
     println!("  05  select! と graceful shutdown");
     println!();
-    println!("Chapter 10 の始め方: cargo test --example async_rust_01_async_tasks");
-    println!("詳しい説明: async-rust/README.md");
+    println!("Chapter 11: unsafe-rust コース");
+    println!();
+    println!("  01  raw pointer と安全な slice view");
+    println!("  02  UnsafeCell と aliasing");
+    println!("  03  strict provenance と offset handle");
+    println!("  04  MaybeUninit による固定長 buffer");
+    println!("  05  部分初期化と panic safety");
+    println!();
+    println!("Chapter 11 の始め方: cargo test --example unsafe_rust_01_raw_slice");
+    println!("詳しい説明: unsafe-rust/README.md");
 }
