@@ -96,6 +96,9 @@ fn main() {
     println!("  03  dyn 互換性と動的 dispatch");
     println!("  04  clone 可能な trait object");
     println!("  05  Any と typed registry");
+    println!("  06  GAT と lending view");
+    println!("  07  HRTB と任意の lifetime の callback");
+    println!("  08  RPITIT と opaque iterator");
     println!();
     println!("Chapter 12 の始め方: cargo test --example advanced_traits_01_associated_types");
     println!("詳しい説明: advanced-traits/README.md");

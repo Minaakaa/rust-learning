@@ -15,7 +15,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 9 [`concurrency`](concurrency/README.md): スレッド、スコープ付きスレッド、チャネル、`Arc`、`Mutex`、`Send`、`Sync`
 - Chapter 10 [`async-rust`](async-rust/README.md): `async` / `.await`、`Future`、`Waker`、`Pin`、executor、task、backpressure、キャンセル、graceful shutdown
 - Chapter 11 [`unsafe-rust`](unsafe-rust/README.md): raw pointer、`UnsafeCell`、strict provenance、`MaybeUninit`、drop・panic safety、Miri
-- Chapter 12 [`advanced-traits`](advanced-traits/README.md): 関連型、blanket impl、coherence、dyn 互換性、trait object、type erasure、`Any`
+- Chapter 12 [`advanced-traits`](advanced-traits/README.md): 関連型、GAT、HRTB、RPITIT、coherence、dyn 互換性、trait object、type erasure、`Any`
 
 次のコマンドで教材一覧を表示できます。
 

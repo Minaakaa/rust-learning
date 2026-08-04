@@ -470,6 +470,18 @@ path = "advanced-traits/exercises/04_cloneable_trait_objects.rs"
 name = "advanced_traits_05_any_registry"
 path = "advanced-traits/exercises/05_any_registry.rs"
 
+[[example]]
+name = "advanced_traits_06_gat_lending_views"
+path = "advanced-traits/exercises/06_gat_lending_views.rs"
+
+[[example]]
+name = "advanced_traits_07_hrtb_callbacks"
+path = "advanced-traits/exercises/07_hrtb_callbacks.rs"
+
+[[example]]
+name = "advanced_traits_08_rpitit_iterators"
+path = "advanced-traits/exercises/08_rpitit_iterators.rs"
+
 [[test]]
 name = "solution_advanced_traits_01_associated_types"
 path = "advanced-traits/solutions/01_associated_types.rs"
@@ -489,3 +501,15 @@ path = "advanced-traits/solutions/04_cloneable_trait_objects.rs"
 [[test]]
 name = "solution_advanced_traits_05_any_registry"
 path = "advanced-traits/solutions/05_any_registry.rs"
+
+[[test]]
+name = "solution_advanced_traits_06_gat_lending_views"
+path = "advanced-traits/solutions/06_gat_lending_views.rs"
+
+[[test]]
+name = "solution_advanced_traits_07_hrtb_callbacks"
+path = "advanced-traits/solutions/07_hrtb_callbacks.rs"
+
+[[test]]
+name = "solution_advanced_traits_08_rpitit_iterators"
+path = "advanced-traits/solutions/08_rpitit_iterators.rs"
