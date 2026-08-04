@@ -89,6 +89,14 @@ fn main() {
     println!("  04  MaybeUninit による固定長 buffer");
     println!("  05  部分初期化と panic safety");
     println!();
-    println!("Chapter 11 の始め方: cargo test --example unsafe_rust_01_raw_slice");
-    println!("詳しい説明: unsafe-rust/README.md");
+    println!("Chapter 12: advanced-traits コース");
+    println!();
+    println!("  01  関連型による型の契約");
+    println!("  02  blanket impl・coherence・newtype");
+    println!("  03  dyn 互換性と動的 dispatch");
+    println!("  04  clone 可能な trait object");
+    println!("  05  Any と typed registry");
+    println!();
+    println!("Chapter 12 の始め方: cargo test --example advanced_traits_01_associated_types");
+    println!("詳しい説明: advanced-traits/README.md");
 }

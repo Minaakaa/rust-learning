@@ -2,6 +2,7 @@
 name = "rust-learning"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.87"
 publish = false
 
 [dependencies]
@@ -448,3 +449,43 @@ path = "unsafe-rust/solutions/04_fixed_buffer.rs"
 [[test]]
 name = "solution_unsafe_rust_05_panic_safe_array"
 path = "unsafe-rust/solutions/05_panic_safe_array.rs"
+
+[[example]]
+name = "advanced_traits_01_associated_types"
+path = "advanced-traits/exercises/01_associated_types.rs"
+
+[[example]]
+name = "advanced_traits_02_blanket_impls"
+path = "advanced-traits/exercises/02_blanket_impls.rs"
+
+[[example]]
+name = "advanced_traits_03_dyn_dispatch"
+path = "advanced-traits/exercises/03_dyn_dispatch.rs"
+
+[[example]]
+name = "advanced_traits_04_cloneable_trait_objects"
+path = "advanced-traits/exercises/04_cloneable_trait_objects.rs"
+
+[[example]]
+name = "advanced_traits_05_any_registry"
+path = "advanced-traits/exercises/05_any_registry.rs"
+
+[[test]]
+name = "solution_advanced_traits_01_associated_types"
+path = "advanced-traits/solutions/01_associated_types.rs"
+
+[[test]]
+name = "solution_advanced_traits_02_blanket_impls"
+path = "advanced-traits/solutions/02_blanket_impls.rs"
+
+[[test]]
+name = "solution_advanced_traits_03_dyn_dispatch"
+path = "advanced-traits/solutions/03_dyn_dispatch.rs"
+
+[[test]]
+name = "solution_advanced_traits_04_cloneable_trait_objects"
+path = "advanced-traits/solutions/04_cloneable_trait_objects.rs"
+
+[[test]]
+name = "solution_advanced_traits_05_any_registry"
+path = "advanced-traits/solutions/05_any_registry.rs"
