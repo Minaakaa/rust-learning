@@ -16,6 +16,7 @@ Rust のコードを実際に直し、テストを通しながら学ぶための
 - Chapter 10 [`async-rust`](async-rust/README.md): `async` / `.await`、`Future`、`Waker`、`Pin`、executor、task、backpressure、キャンセル、graceful shutdown
 - Chapter 11 [`unsafe-rust`](unsafe-rust/README.md): raw pointer、`UnsafeCell`、strict provenance、`MaybeUninit`、drop・panic safety、Miri
 - Chapter 12 [`advanced-traits`](advanced-traits/README.md): 関連型、GAT、HRTB、RPITIT、coherence、dyn 互換性、trait object、type erasure、`Any`
+- Chapter 13 [`macro-systems`](macro-systems/README.md): `macro_rules!`、反復、TT muncher、衛生、`$crate`、macro-generated impl
 
 次のコマンドで教材一覧を表示できます。
 
@@ -49,6 +50,8 @@ cargo run
 - `unsafe-rust/solutions`: Unsafe Rust コースの解答例
 - `advanced-traits/exercises`: 高度なトレイト設計コースの問題
 - `advanced-traits/solutions`: 高度なトレイト設計コースの解答例
+- `macro-systems/exercises`: マクロシステムコースの問題
+- `macro-systems/solutions`: マクロシステムコースの解答例
 - `src/main.rs`: コース案内
 
 まず解答を見ずにテストを実行し、失敗メッセージと問題ファイル内の `TODO` を手掛かりに進めてください。

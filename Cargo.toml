@@ -482,6 +482,26 @@ path = "advanced-traits/exercises/07_hrtb_callbacks.rs"
 name = "advanced_traits_08_rpitit_iterators"
 path = "advanced-traits/exercises/08_rpitit_iterators.rs"
 
+[[example]]
+name = "macro_systems_01_expression_macros"
+path = "macro-systems/exercises/01_expression_macros.rs"
+
+[[example]]
+name = "macro_systems_02_item_generation"
+path = "macro-systems/exercises/02_item_generation.rs"
+
+[[example]]
+name = "macro_systems_03_tt_muncher"
+path = "macro-systems/exercises/03_tt_muncher.rs"
+
+[[example]]
+name = "macro_systems_04_hygiene"
+path = "macro-systems/exercises/04_hygiene.rs"
+
+[[example]]
+name = "macro_systems_05_generated_impls"
+path = "macro-systems/exercises/05_generated_impls.rs"
+
 [[test]]
 name = "solution_advanced_traits_01_associated_types"
 path = "advanced-traits/solutions/01_associated_types.rs"
@@ -513,3 +533,23 @@ path = "advanced-traits/solutions/07_hrtb_callbacks.rs"
 [[test]]
 name = "solution_advanced_traits_08_rpitit_iterators"
 path = "advanced-traits/solutions/08_rpitit_iterators.rs"
+
+[[test]]
+name = "solution_macro_systems_01_expression_macros"
+path = "macro-systems/solutions/01_expression_macros.rs"
+
+[[test]]
+name = "solution_macro_systems_02_item_generation"
+path = "macro-systems/solutions/02_item_generation.rs"
+
+[[test]]
+name = "solution_macro_systems_03_tt_muncher"
+path = "macro-systems/solutions/03_tt_muncher.rs"
+
+[[test]]
+name = "solution_macro_systems_04_hygiene"
+path = "macro-systems/solutions/04_hygiene.rs"
+
+[[test]]
+name = "solution_macro_systems_05_generated_impls"
+path = "macro-systems/solutions/05_generated_impls.rs"

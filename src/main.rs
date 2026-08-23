@@ -102,4 +102,15 @@ fn main() {
     println!();
     println!("Chapter 12 の始め方: cargo test --example advanced_traits_01_associated_types");
     println!("詳しい説明: advanced-traits/README.md");
+    println!();
+    println!("Chapter 13: macro-systems コース");
+    println!();
+    println!("  01  式を返す macro_rules!");
+    println!("  02  項目生成と反復");
+    println!("  03  TT muncher で小さなDSLを読む");
+    println!("  04  hygiene と $crate");
+    println!("  05  macro-generated impl");
+    println!();
+    println!("Chapter 13 の始め方: cargo test --example macro_systems_01_expression_macros");
+    println!("詳しい説明: macro-systems/README.md");
 }
