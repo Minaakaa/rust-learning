@@ -502,6 +502,26 @@ path = "macro-systems/exercises/04_hygiene.rs"
 name = "macro_systems_05_generated_impls"
 path = "macro-systems/exercises/05_generated_impls.rs"
 
+[[example]]
+name = "ffi_01_c_layout"
+path = "ffi/exercises/01_c_layout.rs"
+
+[[example]]
+name = "ffi_02_c_strings"
+path = "ffi/exercises/02_c_strings.rs"
+
+[[example]]
+name = "ffi_03_callbacks"
+path = "ffi/exercises/03_callbacks.rs"
+
+[[example]]
+name = "ffi_04_ownership"
+path = "ffi/exercises/04_ownership.rs"
+
+[[example]]
+name = "ffi_05_panic_boundary"
+path = "ffi/exercises/05_panic_boundary.rs"
+
 [[test]]
 name = "solution_advanced_traits_01_associated_types"
 path = "advanced-traits/solutions/01_associated_types.rs"
@@ -553,3 +573,23 @@ path = "macro-systems/solutions/04_hygiene.rs"
 [[test]]
 name = "solution_macro_systems_05_generated_impls"
 path = "macro-systems/solutions/05_generated_impls.rs"
+
+[[test]]
+name = "solution_ffi_01_c_layout"
+path = "ffi/solutions/01_c_layout.rs"
+
+[[test]]
+name = "solution_ffi_02_c_strings"
+path = "ffi/solutions/02_c_strings.rs"
+
+[[test]]
+name = "solution_ffi_03_callbacks"
+path = "ffi/solutions/03_callbacks.rs"
+
+[[test]]
+name = "solution_ffi_04_ownership"
+path = "ffi/solutions/04_ownership.rs"
+
+[[test]]
+name = "solution_ffi_05_panic_boundary"
+path = "ffi/solutions/05_panic_boundary.rs"

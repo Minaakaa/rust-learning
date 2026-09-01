@@ -113,4 +113,15 @@ fn main() {
     println!();
     println!("Chapter 13 の始め方: cargo test --example macro_systems_01_expression_macros");
     println!("詳しい説明: macro-systems/README.md");
+    println!();
+    println!("Chapter 14: ffi コース");
+    println!();
+    println!("  01  repr(C) と ABI 安全なデータ型");
+    println!("  02  CString・CStr と C 文字列");
+    println!("  03  extern \"C\" callback と opaque context");
+    println!("  04  FFI 境界の所有権と解放関数");
+    println!("  05  panic を越境させない status code");
+    println!();
+    println!("Chapter 14 の始め方: cargo test --example ffi_01_c_layout");
+    println!("詳しい説明: ffi/README.md");
 }
